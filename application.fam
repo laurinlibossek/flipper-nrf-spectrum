@@ -1,0 +1,9 @@
+App(
+    appid="nrf_spectrum",
+    name="[NRF24] Spectrum",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="nrf_spectrum_app",
+    stack_size=2 * 1024,
+    fap_icon="icon.png",
+    fap_category="GPIO",
+)
